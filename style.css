@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title> css 我的网站 </title>
+</head>
+
+
+<style>
+    a {
+
+        color:black}
+
+    a:hover {
+
+        color:green}
+
+    a:active {
+
+        color:blue}
+</style>
+
+
+<body>
+	<a>百度经验</a>
+</body>
+</html>
+
+
