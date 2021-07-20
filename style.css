@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>网页圣杯布局</title>
+</head>
+<body>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .header,.footer {
+            height: 100px;
+            background: #000;
+            color:seashell;
+        }
+        .main {
+            height: 400px;
+            background: #ccc;
+            display: flex;
+        }
+        .content {
+            height: 400px;
+            background: #f90;
+            flex: auto;
+        }
+        .left {
+            width: 300px;
+            height: 400px;
+            background: purple;
+            flex: none;
+        }
+        .right {
+            width: 300px;
+            height: 400px;
+            background: seagreen;
+            flex: none;
+        }
+    </style>
+
+</body>
+</html>
